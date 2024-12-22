@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доставка цветов</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container1">
+        <p>Floral Paradise</p>
+        <ul>
+            <li><button id="set_flover">Цветы</button></li>
+            <li><button id="set_consultation">Консультация</button></li>
+            <li><button id="set_delivery">Доставка</button></li>
+            <li><button id="set_payment_and_delivery">Оплата и Доставка</button></li>
+            <li><button id="set_contact">Контакты</button></li>
+            <li><button id="show-cart">Корзина</button></li>
+        </ul>
+    </div>
+    <div class="image-container">
+        <img src="image/9fcc5140b00511ef92c4e2412bf44179(1)(1).png" alt="Букет">
+        <div class="text">Floral Paradise</div>
+    </div>
+    <div class="flover">
+        <div>
+            <h3>Цветы и Букеты</h3>
+            <p>Закажите доставку свежих цветов в Москве</p>
+            <button class="words1" onclick="showImages('set1')">Авторские букеты</button>
+            <button class="words2" onclick="showImages('set2')">Монобукеты</button>
+        </div>
+        <div class="container2 active" id="set1">
+            <div class="pictures1">
+                <div class="picture-block">
+                <img src="image/44c1f85835ad1135e9652b489302b830.jpg">
+                <h4>Авторский букет №1</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: розовые розы, сиреневые эутосомы, скабиозы 5-6 штук, белые тюльпаны 3-4 штуки, альстромерии, зелень для декора</p>
+                <button class="add-to-cart" data-name="Авторский букет №1" data-price="5380">В корзину</button>
+                <span>5380Руб.</span>
+                </div>
+            </div>
+            <div class="pictures2">
+                <div class="picture-block">
+                <img src="image/16365129608f1674ff-813d-4ade-ba58-886e512e940d.jpeg">
+                <h4>Авторский букет №2</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: розы 5-6 штук, гвоздики 4-5 штук, лизиантус, эутосома 4-5 штук, гипсофила, кустовая зелень, зелень для декора</p>
+                <button class="add-to-cart" data-name="Авторский букет №2" data-price="6480">В корзину</button>
+                <span>6480Руб.</span>
+                </div>
+            </div>
+            <div class="pictures3">
+                <div class="picture-block">
+                <img src="image/ed15e543a6f55d38bd1d02a78f9f655f.jpg">
+                <h4>Авторский букет №3</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: белые розы 3 штуки, розовые розы 5-6 штук, бирюзовые гвоздики 3 штуки, мелкие белые цветы, эустома 2-3 веточки</p>
+                <button class="add-to-cart" data-name="Авторский букет №3" data-price="6950">В корзину</button>
+                <span>6950Руб.</span>
+                </div>
+            </div>
+            <div class="pictures4">
+                <div class="picture-block">
+                <img src="image/m0Beuf-BwUk_800x800.jpg">
+                <h4>Авторский букет №4</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: белые розы 3-4 штуки, кустовые розы, гортензия, герберы 3 штуки, гвоздики розовые 3-4 штуки, лютики 3-4 штуки</p>
+                <button class="add-to-cart" data-name="Авторский букет №4" data-price="5910">В корзину</button>
+                <span>5910Руб.</span>
+                </div>
+            </div>
+            <div class="pictures5">
+                <div class="picture-block">
+                <img src="image/b2d40489e8c5e30d0cf19f55866feacb.jpg">
+                <h4>Авторский букет №5</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: пионы нежно-розового цвета 20 штук, розы персикого цвета 10 штук, цинерария пыльно-серого цвета, декоративная зелень</p>
+                <button class="add-to-cart" data-name="Авторский букет №5" data-price="5380">В корзину</button>
+                <span>5830Руб.</span>
+                </div>
+            </div>
+            <div class="pictures6">
+                <div class="picture-block">
+                <img src="image/b3928b460aa5c918b5df15d23903611c.jpg">
+                <h4>Авторский букет №6</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: белые розы 3 штуки, сиреневые хризантемы 6-7 веток, сантани 3 штуки, белые гвоздики 3 штуки, матрикария 3-4 ветки</p>
+                <button class="add-to-cart" data-name="Авторский букет №6" data-price="4730">В корзину</button>
+                <span>4730Руб.</span>
+                </div>
+            </div>
+            <div class="pictures7">
+                <div class="picture-block">
+                <img src="image/-y6WLPr15f4.jpg">
+                <h4>Авторский букет №7</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: белые розы 7-8 штук, герберы 2 штуки, лиловые хризантемы, розовые мини-розы 6-8 штук, лимониум, декоративная зелень</p>
+                <button class="add-to-cart" data-name="Авторский букет №7" data-price="5160">В корзину</button>
+                <span>5160Руб.</span>
+                </div>
+            </div>
+            <div class="pictures8">
+                <div class="picture-block">
+                <img src="image/d7e8c78f4d1b918b844a5eb8bfdc0e0d.jpg">
+                <h4>Авторский букет №8</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: белые розы 4 штуки, синие розы 3-4 штуки, эустомы бело-зелёная, лизиантус, декоративная зелень</p>
+                <button class="add-to-cart" data-name="Авторский букет №8" data-price="4100">В корзину</button>
+                <span>4100руб.</span>
+                </div>
+            </div>
+            <div class="pictures9">
+                <div class="picture-block">
+                <img src="image/1662424929_19-kartinkin-net-p-buket-iz-trekh-khrizantem-oboi-21.jpg">
+                <h4>Авторский букет №9</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: белые хризантемы 10-15 штук, герберы 2 штуки, кустовые розы 4-5 бутонов, гиперикум 3-4 штуки, декоративная зелень</p>
+                <button class="add-to-cart" data-name="Авторский букет №9" data-price="5840">В корзину</button>
+                <span>5840руб.</span>
+                </div>
+            </div>
+            <div class="pictures10">
+                <div class="picture-block">
+                <img src="image/1675289470_balthazar-club-p-buket-iz-roz-i-khrizantem-krasivo-7.jpg">
+                <h4>Авторский букет №10</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: белые хризантемы 10 цветов, бордовые розы с блёстками 5 штук, гиперикум 3-4 штук, декоративная зелень</p>
+                <button class="add-to-cart" data-name="Авторский букет №10" data-price="5100">В корзину</button>
+                <span>5100руб.</span>
+                </div>
+            </div>
+            <div class="pictures11">
+                <div class="picture-block">
+                <img src="image/1590580000_36003193.jpg">
+                <h4>Авторский букет №11</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: цимбидиумы 3 крупных цветка, орхидеи розовые, розовые кустовые розы 15-20 штук, декоративная зелень</p>
+                <button class="add-to-cart" data-name="Авторский букет №11" data-price="7550">В корзину</button>
+                <span>7550руб.</span>
+                </div>
+            </div>
+            <div class="pictures12">
+                <div class="picture-block">
+                <img src="image/1694770998_balthazar-club-p-gortenziya-i-kustovaya-roza-buket-pinteres-55.jpg">
+                <h4>Авторский букет №12</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: голубая гортензия, кустовая роза 2-3 ветки, розовые розы 2-3 штуки, эустомы 2-3 штуки, ромашковые цветы 3-4 ветки</p>
+                <button class="add-to-cart" data-name="Авторский букет №12" data-price="5690">В корзину</button>
+                <span>5690руб.</span>
+                </div>
+            </div>
+        </div>
+        <div class="container2" id="set2">
+            <div class="pictures1">
+                <div class="picture-block">
+                <img src="image/1699079131_20032646.jpg">
+                <h4>Монобукет №1</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: розовые кустовые розы 18-20 штук</p>
+                <button class="add-to-cart" data-name="Монобукет №1" data-price="5527">В корзину</button>
+                <span>5527Руб.</span>
+                </div>
+            </div>
+            <div class="pictures2">
+                <div class="picture-block">
+                <img src="image/1648209144_25299095.jpg">
+                <h4>Монобукет №2</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: гиацинты фиолетовые 15-17 штук</p>
+                <button class="add-to-cart" data-name="Монобукет №2" data-price="4490">В корзину</button>
+                <span>4490Руб.</span>
+                </div>
+            </div>
+            <div class="pictures3">
+                <div class="picture-block">
+                <img src="image/IMG_6317.jpg">
+                <h4>Монобукет №3</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: маттиолы белые и сиреневые 50 штук</p>
+                <button class="add-to-cart" data-name="Монобукет №3" data-price="3987">В корзину</button>
+                <span>3987Руб.</span>
+                </div>
+            </div>
+            <div class="pictures4">
+                <div class="picture-block">
+                <img src="image/219.3-1024x1024.jpg">
+                <h4>Монобукет №4</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: светло-розовые пионы 15-20 штук</p>
+                <button class="add-to-cart" data-name="Монобукет №4" data-price="7480">В корзину</button>
+                <span>7480Руб.</span>
+                </div>
+            </div>
+            <div class="pictures5">
+                <div class="picture-block">
+                <img src="image/10b55c3eac378d4a3d760aa4f5c71e52--bunga-aquaponics.jpg">
+                <h4>Монобукет №5</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: хризантемы сорта "Сантинни" 10-12 штук</p>
+                <button class="add-to-cart" data-name="Монобукет №5" data-price="2200">В корзину</button>
+                <span>2200Руб.</span>
+                </div>
+            </div>
+            <div class="pictures6">
+                <div class="picture-block">
+                <img src="image/3237_1.jpg">
+                <h4>Монобукет №6</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: гиацинты фиолетовые 20-25 штук</p>
+                <button class="add-to-cart" data-name="Монобукет №6" data-price="4700">В корзину</button>
+                <span>4700Руб.</span>
+                </div>
+            </div>
+            <div class="pictures7">
+                <div class="picture-block">
+                <img src="image/9d6568a6ba1f6905d1b4b3cceabb2451.jpg">
+                <h4>Монобукет №7</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: гипсофиты окрашенные 7-10 веток</p>
+                <button class="add-to-cart" data-name="Монобукет №7" data-price="4090">В корзину</button>
+                <span>4090Руб.</span>
+                </div>
+            </div>
+            <div class="pictures8">
+                <div class="picture-block">
+                <img src="image/1121641_0.jpg">
+                <h4>Монобукет №8</h4>
+                <p class="p1">В наличии</p>
+                <p>состав: хризантемы среднего размера белые 15-20 штук</p>
+                <button class="add-to-cart" data-name="Монобукет №8" data-price="2000">В корзину</button>
+                <span>2000Руб.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" id="modal-overlay"></div>
+    <div class="modal" id="cart-modal">
+        <div class="modal-header">
+            <h3>Корзина</h3>
+            <button class="close-button" id="close-cart">&times;</button>
+        </div>
+        <div class="modal-body">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Количество</th>
+                        <th>Цена</th>
+                        <th>Удалить</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                </tbody>
+            </table>
+            <p class="modal-footer">Общая стоимость: <span id="total-price">0</span> Руб.</p>
+        </div>
+    </div>
+
+    <div class="container3">
+        <div class="star">
+        <span class="star1">&#x2726</span>
+        <span class="star2">&#x2727</span>
+        <p class="p2">Мы оставляем за собой право на незначительную замену цветов в букетах и композициях в связи с сезонностью.</p>
+        <p>Мы всегда направляем фото букета на согласование.</p>
+        </div>
+        <div class="notice">
+            <p>Просим обратить внимание, что цветы — это живой материал, и что его оттенки и размер могут незначительно отличаться от цвета на фотографии. Любой цветок будет радовать дольше при соблюдений всех правил по уходу за срезанными цветами. В каждый букет мы обязательно добавляем инструкцию по уходу и содержанию, чтобы цветы радовали вас как можно дольше.</p>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="florist">   
+        <p class="p3" id="florist-section">Консультация флориста</p>
+        <p>Наши специалисты помогут вам выбрать идеальные цветы и собрать уникальный букет и композицию для любого случая, учитывая ваши пожелания и предпочтения.</p>
+        <form>
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder=" " required>
+                <label for="name">Имя</label>
+            </div>
+        </form>
+        <form>
+            <div class="form-group">
+                <input type="tel" id="phone" name="phone" placeholder=" " required>
+                <label for="phone">Телефон</label>
+            </div>
+        </form>
+        <ul class="radio-list">
+            <li>
+                <input type="radio" id="option1" name="options" value="option1">
+                <label for="option1">Романтический подарок</label>
+            </li>
+            <li>
+                <input type="radio" id="option2" name="options" value="option2">
+                <label for="option2">Подарок на День Рождения</label>
+            </li>
+            <li>
+                <input type="radio" id="option3" name="options" value="option3">
+                <label for="option3">Свадьба</label>
+            </li>
+            <li>
+                <input type="radio" id="option4" name="options" value="option4">
+                <label for="option4">Грустное событие</label>
+            </li>
+            <li>
+                <input type="radio" id="option5" name="options" value="option5">
+                <label for="option5">Другое</label>
+            </li>
+        </ul>
+        <form>
+            <div class="form-group">
+                <input type="tel" id="comment" name="comment" placeholder=" " required>
+                <label for="comment">Ваши пожилания</label>
+            </div>
+        </form>
+        <button>Отправить</button>
+        </div>
+        <div class="image">
+            <img class="pictures13" src="image/0a20c5a6bae011efa3081690387607a1.png">
+        </div>
+    </div>
+    <div class="container5">
+        <img src="image/aa0176a8baef11ef907c127876c01c29.png">
+        <img src="image/94d108d0baf011ef922a0ad361d3e203.png">
+        <img src="image/2ba88905baf111ef9703ae3507932d84.png">
+        <img src="image/90b5ccf6baf311efa3081690387607a1.png">
+        <img src="image/ea35c14abaf211ef9cb9ea11302b94b2.png">
+        <img src="image/f8bc796ebaf311ef805726000a26907a.png">
+    </div>
+    <div class="container6">
+        <div class="delivery">   
+            <p class="p3" id="delivery-section">Доставка цветов в Москве и Московской области</p>
+            <p>Доставим свежие цветы и эксклюзивные букеты с любовью и заботой по всей Москве и Подмосковью.</p>
+            <form>
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder=" " required>
+                    <label for="name">Имя</label>
+                </div>
+            </form>
+            <form>
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder=" " required>
+                    <label for="phone">Телефон</label>
+                </div>
+            </form>
+            <ul class="radio-list">
+                <li>
+                    <input type="radio" id="option1" name="options" value="option1">
+                    <label for="option1">Романтический подарок</label>
+                </li>
+                <li>
+                    <input type="radio" id="option2" name="options" value="option2">
+                    <label for="option2">Подарок на День Рождения</label>
+                </li>
+                <li>
+                    <input type="radio" id="option3" name="options" value="option3">
+                    <label for="option3">Свадьба</label>
+                </li>
+                <li>
+                    <input type="radio" id="option4" name="options" value="option4">
+                    <label for="option4">Грустное событие</label>
+                </li>
+                <li>
+                    <input type="radio" id="option5" name="options" value="option5">
+                    <label for="option5">Другое</label>
+                </li>
+            </ul>
+            <form>
+                <div class="form-group">
+                    <input type="tel" id="comment" name="comment" placeholder=" " required>
+                    <label for="comment">Ваши пожилания</label>
+                </div>
+            </form>
+            <button>Заказать доставку</button>
+            </div>
+            <div class="image">
+                <img class="pictures14" src="image/059d586abb0111efb82e02487a523cb7.png">
+            </div>
+    </div>
+    <div class="container7">
+        <h3 id="payment_and_deliver-section">Оплата и Доставка</h3>
+        <div class="payment_and_deliver">
+        <div class="payment">
+            <p class="p4">Способы оплаты</p>
+            <p>Вы можете оплатить заказ удобным для вас способом в магазине, на сайте или при получении:</p>
+            <ol>
+                <li>Наличными, банковским переводом или картой через терминал</li>
+                <li>Через банк по реквизитам</li>
+                <li>Безналичным банковским переводом для юридических лиц</li>
+            </ol>
+        </div>
+        <div class="shipping">
+            <p class="p4">Способы доставки</p>
+            <p>Вы можете получить заказ удобным для вас способом:</p>
+            <ol>
+                <li>Самовывоз из магазина</li>
+                <li>Курьерская доставка</li>
+                <li>Яндекс Доставка</li>
+            </ol>
+        </div>
+        </div>
+    </div>
+    <h3 id="contact-section">Контакты</h3>
+    <div class="container8">
+    </div>
+    <div class="map">
+        <p><span>Floral Paradise</span> Тимирязевская</p>
+        <ul>
+            <li>9:00-21:00, ежедневно</li>
+            <li>Москва, Тимирязевская улица, 6с1</li>
+            <li>+7(904)595-81-02</li>
+            <li>flora_paradice23@gmail.com</li>
+        </ul>
+    </div>
+    <div class="container9">
+        <h3>©2024 Flora paradice. Все права защищены.</h3>
+    </div>
+</body>
+</html>
